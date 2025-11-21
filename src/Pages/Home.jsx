@@ -5,6 +5,8 @@ import OurServices from '../Components/HomeComponents/OurServices/OurServices';
 import SalesTeams from '../Components/HomeComponents/SalesTeams/SalesTeams';
 import Features from '../Components/HomeComponents/Features/Features';
 import CustomerSatisfaction from '../Components/HomeComponents/CustomerSatisfaction/CustomerSatisfaction';
+import CustomerReview from '../Components/HomeComponents/CustomerReview/CustomerReview';
+import FaQustion from '../Components/HomeComponents/FaQustion/FaQustion';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <SalesTeams></SalesTeams>
             <Features></Features>
             <CustomerSatisfaction></CustomerSatisfaction>
+            <CustomerReview></CustomerReview>
+            <FaQustion></FaQustion>
         </div>
     );
 };

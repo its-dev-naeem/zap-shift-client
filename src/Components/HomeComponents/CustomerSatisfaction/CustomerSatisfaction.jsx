@@ -5,7 +5,7 @@ import bg2 from "../../../assets/location-merchant.png";
 const CustomerSatisfaction = () => {
   return (
     <div
-      className="w-full flex rounded-3xl p-10 bg-accent text-white relative overflow-hidden"
+      className="w-full flex rounded-3xl p-10 bg-accent text-white relative overflow-hidden mb-20"
       style={{
         backgroundImage: `url(${bg1})`,
         backgroundSize: "cover",
@@ -13,7 +13,7 @@ const CustomerSatisfaction = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div>
+      <div className=" flex flex-col justify-center ">
         <h1 className="text-3xl font-bold mb-3">
           Merchant and Customer Satisfaction is Our First Priority
         </h1>

@@ -20,7 +20,7 @@ const Features = () => {
         "We ensure your parcels are handled with the utmost care and delivered securely to their destination. Our reliable process guarantees safe and damage-free delivery every time.",
     },
     {
-      id: 2,
+      id: 3,
       image: image3,
       title: "24/7 Call Center Support",
       details:

@@ -26,7 +26,7 @@ const SalesTeams = () => {
         centeredSlides={true}
         spaceBetween={30}
         grabCursor={true}
-        loop={true}
+        // loop={4}
         autoplay={{
           delay: 500,
           disableOnInteraction: false,
